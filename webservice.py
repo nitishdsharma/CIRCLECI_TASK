@@ -67,7 +67,7 @@ def page_not_found(e):
     return "500 Internal server error : {}".format(e)
 
 #Program execution startpoint
-if _name_ == "__main__":
+if __name__ == "__main__":
     try:
         #Running application on local server
         #host 0.0.0.0 is a no particular ip address which can be replaced by any other host IP/username of that machine
