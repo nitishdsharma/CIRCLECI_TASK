@@ -4,7 +4,7 @@ Deploy Kubernetes Pod using CircleCI.
 ## Jobs performed
 1. Creating a Docker image
 2. Pushing it to the Docker Hub (Registry).
-3. Running a Kubernetes deployment script which call the Docker image.
+3. Running a Kubernetes deployment script which calls the Docker image.
 
 ## Requirements and Dependencies
 1. CircleCI 2.1
@@ -31,15 +31,15 @@ Deploy Kubernetes Pod using CircleCI.
 
 6. Link the CircleCI account with Github Repository.
 
-7. Add the Github Repository as a Project in CircleCI, start following it. Add required the environment variables such as KUBERNETES_SERVER, KUBERNETES_TOKEN, DOCKER_USERNAME etc.
+7. Add the Github Repository as a Project in CircleCI, start following it. Add the required environment variables such as KUBERNETES_SERVER, KUBERNETES_TOKEN, DOCKER_USERNAME etc in the project.
 
 8. Commit all the script files in Github Repository.
 
 ## Output
 
-1. The CircleCI Project job should be successfull.
+1. Commit should trigger the CircleCI Project job and it should be successful.
 
-2. Webservice pod should be up and running
+2. Webservice pod and its service should be up and running.
 
 ## Testing the accessiblity of Pod
 
