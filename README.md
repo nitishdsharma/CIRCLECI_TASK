@@ -11,7 +11,7 @@ Deploy Kubernetes Pod using CircleCI.
 2. Kuberentes cluster with 1.13+ version.
 3. Dockerfile for the webservice.
 4. DockerHub registry - To push and store the docker images.
-5. Workstation
+5. Workstation.
 6. Github account
 
 ## Deployment steps
@@ -31,7 +31,7 @@ Deploy Kubernetes Pod using CircleCI.
 
 6. Link the CircleCI account with Github Repository.
 
-7. Add the Github Repository as a Project in CircleCI, start following it. Add the required environment variables such as KUBERNETES_SERVER, KUBERNETES_TOKEN, DOCKER_USERNAME etc in the project.
+7. Add the Github Repository as a Project in CircleCI, start following it. Add the required environment variables such as KUBERNETES_SERVER, KUBERNETES_TOKEN, DOCKER_USERNAME, KUBERNETES_CLUSTER_CERTIFICATE etc in the project.
 
 8. Commit all the script files in Github Repository.
 
