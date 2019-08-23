@@ -1,5 +1,5 @@
 ## Assignment Info 
-Deploy Kubernetes Pod using CircleCI.
+Deploy Kubernetes Pod using CircleCI
 
 ## Jobs performed
 1. Creating a Docker image
