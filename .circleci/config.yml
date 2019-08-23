@@ -18,3 +18,11 @@ jobs:
           command: |
             echo "Startrek1234!@#$" | docker login -u "nitsteve99" --password-stdin
             docker push $IMAGE_NAME:latest
+
+      - run:
+          name: Archive Docker image
+          command: docker save -o image.tar $IMAGE_NAME
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./image.tar
