@@ -26,3 +26,6 @@ jobs:
           root: .
           paths:
             - ./image.tar
+      - run:
+              name: Load archived Docker image
+              command: docker load -i ./image.tar
