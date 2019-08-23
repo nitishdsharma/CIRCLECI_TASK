@@ -1,6 +1,11 @@
 ## Assignment Info 
 Deploy Kubernetes Pod using CircleCI
 
+## Jobs performed
+1. Creating a Docker image
+2. Pushing it to the Docker Hub (Registry).
+3. Running a Kubernetes deployment script which call the Docker image.
+
 ## Requirements and Dependencies
 1. CircleCI 2.1
 2. Kuberentes cluster with 1.13+ version.
