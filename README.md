@@ -28,7 +28,7 @@ Deploy Kubernetes Pod using CircleCI
 
 7. Add the Github Repository as a Project in CircleCI, start following it. Add required the environment variables such as KUBERNETES_SERVER, KUBERNETES_TOKEN, DOCKER_USERNAME etc.
 
-8. Commit all the required files in Github Repository.
+8. Commit all the script files in Github Repository.
 
 ## Output
 
